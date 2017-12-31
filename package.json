@@ -1,0 +1,24 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "binary tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsenTang/Algorithm.git"
+  },
+  "author": "Isen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IsenTang/Algorithm/issues"
+  },
+  "homepage": "https://github.com/IsenTang/Algorithm#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.14.0",
+    "mocha": "^4.1.0"
+  }
+}
