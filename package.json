@@ -18,6 +18,7 @@
   "homepage": "https://github.com/IsenTang/Algorithm#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "chai-arrays": "^2.0.0",
     "eslint": "^4.14.0",
     "mocha": "^4.1.0"
   }
