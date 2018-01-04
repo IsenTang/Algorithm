@@ -1,7 +1,8 @@
 module.exports = {
     "env": {
         "es6": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -9,6 +10,12 @@ module.exports = {
         'ecmaVersion': 8
     },
     "rules": {
+        "no-unused-vars": [
+            "error",
+            {
+                "varsIgnorePattern": "should|expect"
+            }
+        ],
         "indent": [
             "error",
             4
@@ -32,6 +39,6 @@ module.exports = {
         "arrow-body-style": 2,
         "arrow-parens": [2, "always"],
         "arrow-spacing": [2, { "before": true, "after": true }],
-        "no-confusing-arrow": 0,
+        "no-confusing-arrow": 0
     }
 };
