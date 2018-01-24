@@ -1,5 +1,5 @@
 'use strict';
-
+//简单排序
 module.exports = {
     /**
      * 选择排序 （Selection sort）
