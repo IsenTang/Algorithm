@@ -36,3 +36,19 @@ function remove(arr) {
     queue.remove();
     return queue.data;
 }
+
+describe('priorityQueue', function() {
+    it('max(首位最大)', function() {
+        expect(
+            max([4, 8, 7, 9, 5])
+        ).to.be.equal(9);
+    });
+});
+
+function max(arr) {
+    let queue = new priorityQueue();
+    arr.forEach((item) => {
+        queue.insert(item);
+    });
+    return queue.max();
+}
